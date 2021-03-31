@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background:rgb(241, 239, 234);
+}h1.heading {
+    background: #f9af26;
+    padding: 15px 10px;
+}
+.ddhh {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button#heardAddpage {
+    position: relative;
+    height: 35px;
+    width: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: none;
+    border: none;
+    outline: none;
+    z-index: 1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+span.i_con {
+    background: #f9af26;
+    height: 74%;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    position: absolute;
+    left: 0;
+    transition: 0.3s;
+    z-index: -1;
+}
+span.i_con i {
+    margin-left: 7px;
+    color: #fff;
+}
+button#heardAddpage:hover span.i_con{
+    width: 120px;
+}
+button#heardAddpage:hover{
+    color:#fff;  
+}
+.node_box{
+    width:300px;
+    height: 150px;
+    background:#FFF;
+    margin-left:10px;
+    border:1px solid #ddd;
+    overflow: auto;
+    margin-top:10px;
+    box-shadow: inset 0px 0px 4px 1px #ddd;
+}
+span#node_i_1 {
+    color: #fff;
+    background: green;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    cursor: pointer;
+    transition:0.2s
+}
+
+.nodeIcons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+
+span#node_1_2 {
+    color: #fff;
+    background: #d21111;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition:0.2s
+}
+textarea{
+    border:none;
+    height: 100%;
+    width: 100%;
+    outline:none;
+}
+#main_node_div{
+    width: 1260px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}span#node_i_1:hover {
+    color: black;
+    background: #fff;
+    box-shadow: 0px 4px 6px 2px #ddd;
+}span#node_1_2:hover {
+    color: black;
+    background: #fff;
+    box-shadow: 0px 4px 6px 2px #ddd;
+}
+.hidden{
+    display: none;
+}
